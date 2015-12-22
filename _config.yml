@@ -1,0 +1,9 @@
+url: "http://mattprecious.com"
+
+highlighter: pygments
+markdown: redcarpet
+
+gems:
+  - jekyll-feed
+
+title: Matthew Precious
