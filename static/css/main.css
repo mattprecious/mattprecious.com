@@ -11,8 +11,21 @@ h1 {
   margin-top: 144px;
 }
 
+@media (max-width: 767px) {
+  h1 {
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
+}
+
+.page-content {
+  margin: 0 auto;
+  max-width: 800px;
+}
+
 .icon svg {
   height: 150px;
+  margin: 16px 0 16px 0;
 }
 
 .icon svg path {
