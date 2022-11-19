@@ -28,16 +28,15 @@ h1 {
   margin: 16px 0 16px 0;
 }
 
-.icon svg path {
+.icon svg path:first-of-type {
   fill: #828282;
+}
+
+.icon svg path {
   -webkit-transition: fill .3s ease-in-out;
   -moz-transition: fill .3s ease-in-out;
   -o-transition: fill .3s ease-in-out;
   transition: fill .3s ease-in-out;
-}
-
-.icon:hover svg path {
-  fill: #000000;
 }
 
 .icon--github:hover svg path {
@@ -48,6 +47,6 @@ h1 {
   fill: #65bbf2 !important;
 }
 
-.icon--googleplus:hover svg path {
-  fill: #e56552 !important;
+.icon--mastodon:hover svg path:first-of-type {
+  fill: #6364FF !important;
 }
