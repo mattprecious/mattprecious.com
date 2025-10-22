@@ -7,3 +7,6 @@ gems:
   - jekyll-feed
 
 title: Matthew Precious
+
+include:
+  - .well-known
